@@ -1,0 +1,16 @@
+# Begin by ignoring everything
+**/*
+
+# Whielist files
+!/.gitignore
+!/LICENSE
+!/README.rst
+!/lead_pipe/
+/lead_pipe/*
+!/lead_pipe/__init__.py
+!/lead_pipe/lead_pipe.py
+!/setup.py
+!/test/
+/test/*
+!/test/__init__.py
+!/test/test_lead_pipe.py
