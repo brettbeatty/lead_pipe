@@ -1,1 +1,1 @@
-from lead_pipe import Pipe, apply, reflect
+from .lead_pipe import Pipe, apply, reflect
