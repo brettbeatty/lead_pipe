@@ -16,7 +16,7 @@ jobs:
           command: |
             source venv/bin/activate
             pytest tests
-            pytest --cov=hand_grenade/ tests/
+            pytest --cov=lead_pipe/ tests/
       - run:
           name: Generate .pypirc
           command: |
