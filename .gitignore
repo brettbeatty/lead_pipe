@@ -1,16 +1,17 @@
 # Begin by ignoring everything
-**/*
+*
 
 # Whielist files
-!/.gitignore
-!/LICENSE
-!/README.rst
+!/.circleci/
+!/.circleci/config.yml
 !/lead_pipe/
-/lead_pipe/*
 !/lead_pipe/__init__.py
 !/lead_pipe/lead_pipe.py
+!/tests/
+!/tests/__init__.py
+!/tests/test_lead_pipe.py
+!/.gitignore
+!/LICENSE
+!/MANIFEST.in
+!/README.rst
 !/setup.py
-!/test/
-/test/*
-!/test/__init__.py
-!/test/test_lead_pipe.py

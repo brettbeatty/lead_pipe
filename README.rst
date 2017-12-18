@@ -1,5 +1,18 @@
 lead_pipe
 =========
+
+.. image:: https://img.shields.io/circleci/project/github/brettbeatty/lead_pipe.svg
+    :target: https://circleci.com/gh/brettbeatty/lead_pipe
+
+.. image:: https://img.shields.io/github/license/brettbeatty/lead_pipe.svg
+    :target: https://github.com/brettbeatty/lead_pipe/blob/master/LICENSE
+
+.. image:: https://img.shields.io/codecov/c/github/brettbeatty/lead_pipe.svg
+    :target: https://codecov.io/gh/brettbeatty/lead_pipe
+
+.. image:: https://img.shields.io/pypi/v/lead_pipe.svg
+    :target: https://pypi.org/project/lead_pipe/
+
 Lead Pipe allows values to be piped from one function to the next without nesting the calls. For example, the following blocks of code are equivalent.
 
 .. code-block:: python
@@ -82,3 +95,5 @@ Sometimes one may want to call a member function of a value in the pipeline. One
     >>> from lead_pipe import reflect
     >>> ~Pipe({'a': 1, 'b': 2})(reflect, 'get', 'a')
     1
+
+In this specific example, one could pipe the dictionary to dict.get, but reflect is more general.
